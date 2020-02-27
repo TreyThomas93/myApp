@@ -15,4 +15,4 @@ Simple pseudo CRUD app that allows the user to create, read, update, and delete 
 [Custom Css]
 
 <b>Database: </b>
-[Json File - jason-server]
+[Json File - json-server]
