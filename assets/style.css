@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --primary: rgb(72, 29, 107);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+}
+
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+body main {
+  width: 100%;
+  margin: auto;
+}
+
+body main header {
+  background-color: var(--primary);
+  color: white;
+}
+
+body main .p1 {
+  padding: 1em;
+}
+
+body main .mb-1 {
+  margin-bottom: 1em;
+}
+
+body main button {
+  border-radius: 5px;
+}
+
+body main .btn-1 {
+  padding: 0.35em;
+  font-size: 1.1rem;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+}
+
+body main .btn-2 {
+  padding: 0.35em;
+  font-size: 1.1rem;
+  border: none;
+  color: white;
+  width: 100px;
+}
+
+body main .btn-3 {
+  padding: 0.35em;
+  font-size: 1.1rem;
+  border: none;
+  color: white;
+  background-color: orange;
+}
+
+body main .btn-1:hover,
+body main .btn-2:hover,
+body main .btn-3:hover {
+  opacity: 0.75;
+}
+
+body main .edit-btn {
+  background-color: var(--primary);
+}
+
+body main .delete-btn {
+  background-color: red;
+}
+
+body main textarea {
+  padding: 0.5em;
+  height: 100px;
+}
+
+body main .box-shadow {
+  -webkit-box-shadow: 5px 5px 15px rgba(1, 1, 1, 0.5);
+          box-shadow: 5px 5px 15px rgba(1, 1, 1, 0.5);
+  border-radius: 10px;
+  -webkit-transition: 0.35s ease-in-out;
+  transition: 0.35s ease-in-out;
+}
+
+body main .box-shadow:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 5px 5px 25px rgba(1, 1, 1, 0.5);
+          box-shadow: 5px 5px 25px rgba(1, 1, 1, 0.5);
+}
+
+@media (max-width: 600px) {
+  body main .input-div {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 600px) {
+  body main .input-div {
+    width: 600px;
+    margin: auto;
+  }
+}
+
+body main .input-div > div {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1em;
+}
+
+body main .input-div .edit-div {
+  display: none;
+}
+
+body main .input-div .alert-success {
+  background-color: lightblue;
+  color: black;
+}
+
+body main .input-div .alert-error {
+  background-color: red;
+  color: white;
+}
+
+body main .input-div #alert-div {
+  padding: 0.5em;
+  text-align: center;
+  width: 100%;
+  margin-top: 1em;
+  display: none;
+  border-radius: 5px;
+}
+
+body main .post-div {
+  margin: auto;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  body main .post-div {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) {
+  body main .post-div {
+    width: 600px;
+  }
+}
+
+body main .post-div .inner-post-div {
+  background: #002411;
+  background: -webkit-gradient(linear, left top, right top, from(#002411), color-stop(55%, rgba(9, 9, 121, 0.830036)), to(#00d4ff));
+  background: linear-gradient(90deg, #002411 0%, rgba(9, 9, 121, 0.830036) 55%, #00d4ff 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+body main .post-div .inner-post-div .edit-delete-container {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 0.5em;
+}
+/*# sourceMappingURL=style.css.map */
